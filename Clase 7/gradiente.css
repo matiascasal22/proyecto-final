@@ -1,0 +1,36 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.caja{
+width: 300px;
+height: 300px;
+margin: 20px;
+display: inline-block;
+}
+.grand1{
+    background: linear-gradient( to top,green,yellow,black);
+}
+.grand2{
+    background: radial-gradient(circle, grey, red, blue);
+}
+.grand3{
+    background: radial-gradient(ellipse,gray, red,black,white);
+height: 150px;
+}
+.grand4{
+    background: linear-gradient(green,blue,red,white,black);
+}
+.translate:hover{
+transform: translate(20px, 50px);
+}
+.scale:hover{
+    transform: scale(1.1, 1.1);
+}
+.rotate:hover{
+    transform: rotate(90deg);
+}
+.skew:hover{
+    transform: skew(20deg);
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shurcut icon" href="./imagenes/favicon-32x32.png">
+    <title>Rosario Briones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;500&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href= "../estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>  <div class="contenedor"> 
+                        <div class="contenedor__foto"><img src="../imagenes/favicon-32x32.png" alt="Logo" ></div>
+                        <div class="contenedor__logo">ROSARIO BRIONES </div> 
+                        
+                </div></header>
+    
+    <main>
+        <div class="grande"> 
+            <div class="grande__menu">
+                <div class="menu__lista"><ul>
+                    
+                    <div class="menu__lista--item"><li><a href="../index.html"> INICIO</a></li></div>
+                    <div class="menu__lista--item"><li><a href="./HISTORIA.HTML"> HISTORIA</a></li></div>
+                    <div class="menu__lista--item"><li><a href="./Obra.html"> OBRA</a></li></div>
+                    <div class="menu__lista--item"><a href="./Contacto.html"><li>CONTACTO</a></li></div>
+                </ul></div>
+            </div>
+
+            <div class="grande__centro">
+                <div class="centro__contenido">
+                    <div class="centro__contenido--monedas"> <img src= "imagenes/actualidad.png" alt=""></div>
+                    <div class="centro__contenido--titulo"></div>
+                    <div class="centro__contenido--encuestas">
+                        <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                            <label for="name">Nombre:<input type="text"></label>
+                            <br><br>
+                            <label for="email">Mail:<input type="email"></label>
+                            <br><br><br>
+                            <label for="concetar">Por donde queres contactarnos:</label> 
+                            <br><br>
+                            
+                            <label for="checkbox">Whatsapp <input type="checkbox"></label>
+                            <br><br>
+                            <label for="checkbox">Facebook <input type="checkbox"></label> 
+                            <br><br>
+                            <label for="checkbox">Instagram<input type="checkbox"></label> 
+                            <br><br><br>
+                            <textarea name="areadetexto" id="" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
+                            <br><br>
+                    
+                            <input type="submit" value="Enviar">
+                            
+                            <input type="reset" value="Borrar">
+                        </div>
+                </div>
+                
+            </div>
+        
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__redes">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-whatsapp"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-hotmail"></i>
+        </div>
+    </footer>
+</body>
+</html>

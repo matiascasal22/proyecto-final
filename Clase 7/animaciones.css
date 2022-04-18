@@ -1,0 +1,63 @@
+/*caja que se modifica*/
+.anim{
+    width: 10vw;
+    height: 10vh;
+    background-color: rosybrown;
+    animation-name: anima;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+    animation-delay: 0s;
+}
+@keyframes anima{
+    0%{width: 20vw}
+    25%{width: 30vw}
+    50%{width:10vw;
+    background-color: red}
+    75%{width: 30vw;}
+    100%{width: 20vw;
+    background-color: blue;}
+}
+/*caja que gira*/
+div.animame{
+    width: 10vw;
+    height: 20vh;
+    background-color: blueviolet;
+    border: solid navy;
+}
+div{
+    position: relative;
+}
+.animame{
+    animation: 3s linear 3s infinite;
+    animation-name: animame;
+}
+@keyframes animame{
+    from {}
+    to {
+        transform: rotate(180deg);
+    }
+}
+/*texto que aparece*/
+.aparecer{
+    margin: 100px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 10;
+    }
+}
+/*animate.css*/
+/*michalsnik.github.io/aos*/
+h2{
+    color: rebeccapurple;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*wow.js*/
